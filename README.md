@@ -1,44 +1,60 @@
-# instamart-support-copilot
+
 # Instamart Support Copilot
 
 ## Project Overview
-Instamart Support Copilot is an AI/ML-based customer support
-analytics project designed to analyze customer data, orders,
-products, and support tickets.
+AI-powered customer support copilot for Instamart, combining customer analytics, ticket classification, policy retrieval, and refund assistance.
 
-## Objectives
-- Analyze customer information
-- Understand order patterns and revenue
-- Analyze customer support tickets
-- Identify customer issues and trends
-- Build an intelligent support assistant
+## Project Components
+
+### Part A – Data Foundation
+- Synthetic data generation
+- Data cleaning and preprocessing
+- SQLite database creation
+- Customer data preparation
+
+### Part B – Customer Analytics
+- Customer Exploratory Data Analysis
+- Customer segmentation
+- Customer lapse prediction
+
+### Part C – Support Ticket Triage
+- Ticket classification
+- PII redaction
+- Retry handling and validation
+- Priority and routing analysis
+
+### Part D – Policy RAG & Refund Agent
+- Policy document retrieval
+- TF-IDF similarity matching
+- Policy evaluation
+- Refund support agent
+- Evaluation on 14 policy questions
 
 ## Technologies Used
 - Python
 - Pandas
+- NumPy
+- Scikit-learn
 - SQLite
-- SQL
-- Machine Learning
-- GitHub
+- TF-IDF
+- Git
 
 ## Project Structure
-- data/raw – Original datasets
-- data/processed – Cleaned datasets and database
-- src – Python and SQL scripts
-- notebooks – Analysis notebooks
+- data/ – datasets and policy documents
+- src/ – Python source code
+- outputs/ – generated results
+- README.md – project documentation
 
-## Data Preparation
-Synthetic datasets are generated using the provided
-data generation script.
+## Installation
+```bash
+pip install -r requirements.txt
+```
 
-Data cleaning includes:
-- Removing duplicate records
-- Removing completely empty rows
-- Standardizing customer data
+## Execution
+Run the Python scripts from the project root directory.
 
-## Current Progress
-- Synthetic data generation completed
-- Data cleaning completed
-- SQLite database created
-- Customer EDA completed
-- SQL analysis started
+## Outputs
+Generated evaluation and analysis results are saved in the outputs/ folder.
+
+## Author
+Hajar Fathima

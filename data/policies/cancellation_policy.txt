@@ -1,0 +1,2 @@
+Orders can be cancelled before shipment.
+Shipped orders cannot be cancelled.

@@ -1,0 +1,15 @@
+question,expected_doc,retrieved_docs,retrieval_hit,top_score
+What delivery time makes a completed order eligible for a full refund?,refund_policy.txt,"refund_policy.txt, delivery_policy.txt",1,0.3008348505896979
+Who must approve a refund above INR 1000?,refund_policy.txt,"refund_policy.txt, delivery_policy.txt",1,0.3350620601218903
+How many days do I have to raise a refund request?,refund_policy.txt,"refund_policy.txt, privacy_policy.txt",1,0.23405412576204862
+What is the delivery fee on small orders?,delivery_policy.txt,"delivery_policy.txt, cancellation_policy.txt",1,0.2313049143900932
+On orders of what value is delivery free?,delivery_policy.txt,"delivery_policy.txt, cancellation_policy.txt",1,0.23319078428456574
+Why does the electronics delivery need a one time password?,delivery_policy.txt,"delivery_policy.txt, payment_policy.txt",1,0.23441631976219798
+Is cash on delivery available for a large order?,payment_policy.txt,"payment_policy.txt, delivery_policy.txt",1,0.35919219778967787
+How soon is money returned when a payment fails but is deducted?,payment_policy.txt,"payment_policy.txt, refund_policy.txt",1,0.23029974592441674
+Can wallet balance be refunded as cash?,payment_policy.txt,payment_policy.txt,1,0.4038691614571481
+When are delivery addresses deleted from active systems?,privacy_policy.txt,"privacy_policy.txt, delivery_policy.txt",1,0.3598111599727072
+How fast must a fraud ticket reach the security team?,escalation_policy.txt,"escalation_policy.txt, payment_policy.txt",1,0.27150749056347645
+After how many steps must an automated assistant hand over to a human?,escalation_policy.txt,"escalation_policy.txt, privacy_policy.txt",1,0.28707406302948557
+What is the favourite colour of the company mascot?,NONE,,1,0.0
+Who won the cricket world cup final?,NONE,,1,0.0
